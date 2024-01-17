@@ -14,7 +14,7 @@ permissions:
 
 env:
   AZURE_RESOURCEGROUP_NAME: ToyWebsiteTest
-  ENVIRONMENT_TYPE: test
+  ENVIRONMENT_TYPE: nonprod
 
 jobs: 
   lint:
