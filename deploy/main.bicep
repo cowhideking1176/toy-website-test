@@ -21,7 +21,7 @@ var toyManualsStorageAccountName = 'toyweb${resourceNameSuffix}'
 var environmentConfigurationMap = {
   nonprod: {
     appServiceApp: {
-      alwaysOn: true
+      alwaysOn: false
     }
     appServicePlan: {
       sku: {
@@ -37,7 +37,7 @@ var environmentConfigurationMap = {
   }
   prod: {
     appServiceApp: {
-      alwaysOn: false
+      alwaysOn: true
     }
     appServicePlan: {
       sku: {
